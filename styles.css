@@ -6792,6 +6792,10 @@ video {
   font-size: 0.6rem;
 }
 
+.text-fivepointfive{
+  font-size: 5.5rem;
+}
+
 .text-xxl{
   font-size: 6rem;
 }
@@ -20346,6 +20350,24 @@ video {
 
 /* End Index Styles Section */
 
+/* Sign Up Section */
+
+.square {
+  background-image: url(resources/Square.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20rem;
+  width: 20rem;
+}
+
+.square_long {
+  background-image: url(resources/Square_02.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 47rem;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -26537,6 +26559,10 @@ video {
 
   .sm\:text-xxs{
     font-size: 0.6rem;
+  }
+
+  .sm\:text-fivepointfive{
+    font-size: 5.5rem;
   }
 
   .sm\:text-xxl{
@@ -46098,6 +46124,10 @@ video {
     font-size: 0.6rem;
   }
 
+  .md\:text-fivepointfive{
+    font-size: 5.5rem;
+  }
+
   .md\:text-xxl{
     font-size: 6rem;
   }
@@ -65655,6 +65685,10 @@ video {
 
   .lg\:text-xxs{
     font-size: 0.6rem;
+  }
+
+  .lg\:text-fivepointfive{
+    font-size: 5.5rem;
   }
 
   .lg\:text-xxl{
@@ -85216,6 +85250,10 @@ video {
     font-size: 0.6rem;
   }
 
+  .xl\:text-fivepointfive{
+    font-size: 5.5rem;
+  }
+
   .xl\:text-xxl{
     font-size: 6rem;
   }
@@ -104775,6 +104813,10 @@ video {
     font-size: 0.6rem;
   }
 
+  .xlg\:text-fivepointfive{
+    font-size: 5.5rem;
+  }
+
   .xlg\:text-xxl{
     font-size: 6rem;
   }
@@ -124332,6 +124374,10 @@ video {
 
   .slg\:text-xxs{
     font-size: 0.6rem;
+  }
+
+  .slg\:text-fivepointfive{
+    font-size: 5.5rem;
   }
 
   .slg\:text-xxl{

@@ -20544,6 +20544,28 @@ video {
 
 /* End Hero Section */
 
+/* Mission Story Section */
+
+.grad {
+  background-image: url("resources/grad.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -2.8rem;
+  height: 30rem;
+  width: 100%;
+}
+
+.fairy {
+  background-image: url("resources/light-book.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -2.8rem;
+  height: 30rem;
+  width: 100%;
+}
+
+/* End Mission Story */
+
 /* Instruction Section */
 
 .instruction_grid {
@@ -20578,6 +20600,25 @@ video {
 
 #image_04 {
   background-image: url(resources/Square.png);
+}
+
+@media only screen and (min-width: 1100px) {
+  .home_background {
+    background-image: url(resources/Bridge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-attachment: fixed;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .home_background {
+    background-image: url(resources/Bridge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+  }
 }
 
 /* End Instruction Section */
@@ -20695,13 +20736,6 @@ video {
 /* End Sign Up Section */
 
 /* Whats On Section */
-
-.whats_on_background {
-  background-image: url(resources/whats-on/books.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 .whats_on_img {
   border-radius: 0.5rem;
@@ -20823,6 +20857,13 @@ video {
   .wo-title {
     font-size: 1.5rem;
   }
+
+  .whats_on_background {
+    background-image: url(resources/whats-on/books.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -30rem;
+  }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -20857,6 +20898,13 @@ video {
 
   .arrow {
     padding: 3px;
+  }
+
+  .whats_on_background {
+    background-image: url(resources/whats-on/books.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0rem;
   }
 }
 

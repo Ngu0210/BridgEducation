@@ -20550,7 +20550,7 @@ video {
   background-image: url("resources/grad.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: -2.8rem;
+  background-position: center;
   height: 30rem;
   width: 100%;
 }
@@ -20559,7 +20559,7 @@ video {
   background-image: url("resources/light-book.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: -2.8rem;
+  background-position: center;
   height: 30rem;
   width: 100%;
 }
@@ -20587,6 +20587,16 @@ video {
 }
 
 @media only screen and (min-width: 1100px) {
+  .grad {
+    background-position: -2.8rem;
+  }
+
+  .fairy {
+    background-position: -2.8rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
   .grad {
     background-position: 0rem;
   }

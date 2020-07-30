@@ -20696,6 +20696,13 @@ video {
 
 /* Whats On Section */
 
+.whats_on_background {
+  background-image: url(resources/whats-on/books.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .whats_on_img {
   border-radius: 0.5rem;
   height: 20rem;

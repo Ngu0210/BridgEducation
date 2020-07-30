@@ -8,8 +8,8 @@
 </head>
 <body>
     <div class="font-Montserrat"> <!-- Content Wrapper-->
-        <div>
-            <nav class="bg-primary flex justify-between py-5 px-12"> <!-- Navigation Bar -->
+        <div> <!-- Navigation Bar -->
+            <nav class="bg-primary flex justify-between py-5 px-12"> 
                 <div class="lg:pl-20">
                     <a href="index.html">
                         <img class="h-12" src="resources/logo_white.png" alt="BridgEd Logo">
@@ -17,105 +17,118 @@
                 </div>
                 <ul class="flex items-center text-white lg:pr-20 font-light uppercase">
                     <li class="hover:text-secondary transition-colors duration-300">
-                        <a href="index.html">
+                        <a href="#">
                             <span>Home</span>
                         </a>
                     </li>
                     <li class="pl-5 hover:text-secondary md:pl-12 transition-colors duration-300">
-                        <a href="#">
-                            <span>About</span>
+                        <a href="about.html">
+                            <span>Our Team</span>
                         </a>
                     </li>
-                    <!-- <li class="pl-5 hover:text-secondary md:pl-12 transition-colors duration-300">
+                    <li class="pl-5 hover:text-secondary md:pl-12 transition-colors duration-300">
+                        <a href="whats_on.html">
+                            <span>What's On</span>
+                        </a>
+                    </li>
+                    <li class="pl-5 hover:text-secondary md:pl-12 transition-colors duration-300">
                         <a href="sign_up.html">
                             <span>Sign Up</span>
                         </a>
-                    </li> -->
+                    </li>
+                    <li class="pl-5 hover:text-secondary md:pl-12 transition-colors duration-300">
+                        <a href="#">
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
                 </ul>
-            </nav> <!-- End Navigation-->
-        </div>
+            </nav>
+        </div> <!-- End Navigation-->
         <main> <!-- Main Content -->
-            <div class="flex flex-col justify-evenly items-center bg-tint whats-on-bg">
-                <div class="pt-10 text-center">
-                    <h2 class="text-5xl font-bold">See What's On</h2>
-                    <p>View our list of subects below</p>
-                </div>
-                <div class="flex flex-row">
-                    <div class="py-10 flex flex-col items-center md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-4 lg:gap-4 lg:py-10 xl:gap-0 xl:pb-40">
-                        
-                            <div class="whats_on_img" id="English_IMG">
-                                <div class="wo-title-wrapper">
-                                    <p class="wo-title">English</p>
-                                </div>
-                                <p class="view-more"><a href="whats-on/english.html">View More</a><i class="arrow"></i></p>
-                            </div>
-
-                            <div class="whats_on_img" id="Psychology_IMG">
-                                <div class="wo-title-wrapper">
-                                    <p class="wo-title">Psychology</p>
-                                </div>
-                                <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
-                            </div>
-
-                            <div class="whats_on_img" id="Biology_IMG">
-                                <div class="wo-title-wrapper">
-                                    <p class="wo-title">Biology</p>
-                                </div>
-                                <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
-                            </div>
-
-                            <div class="whats_on_img" id="Further_Maths_IMG">
-                                <div class="wo-title-wrapper">
-                                    <p class="wo-title">Further Maths</p>
-                                </div>
-                                <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
-                            </div>
-                        
-                            <div class="whats_on_img" id="Maths_Methods_IMG">
-                                <div class="wo-title-wrapper">
-                                    <p class="wo-title">Maths Methods</p>
-                                </div>
-                                <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
-                            </div>
-
-                            <div class="whats_on_img" id="Business_Man_IMG">
-                                <div class="wo-title-wrapper">
-                                    <p class="wo-title">Business Man.</p>
-                                </div>
-                                <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
-                            </div>
-
-                            <div class="whats_on_img" id="HHD_IMG">
-                                <div class="wo-title-wrapper">
-                                    <p class="wo-title">HHD</p>
-                                </div>
-                                <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
-                            </div>
-
-                            <div class="whats_on_img" id="Chemistry_IMG">
-                                <div class="wo-title-wrapper">
-                                    <p class="wo-title">Chemistry</p>
-                                </div>
-                                <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
-                            </div>
-
-                            <div class="whats_on_img" id="Legal_Studies_IMG">
-                                <div class="wo-title-wrapper">
-                                    <p class="wo-title">Legal Studies</p>
-                                </div>
-                                <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
-                            </div>
-                        
-                            <div class="whats_on_img" id="PE_IMG">
-                                <div class="wo-title-wrapper">
-                                    <p class="wo-title">PE</p>
-                                </div>
-                                <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
-                            </div>
+            <div class="whats_on_background">
+                <div class="flex flex-col justify-evenly items-center whats-on-bg">
+                    <div class="pt-10 text-center">
+                        <h2 class="text-5xl font-bold">See What's On</h2>
+                        <p>View our list of subects below</p>
                     </div>
+                    <div class="flex flex-row">
+                        <div class="py-10 flex flex-col items-center md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-4 lg:gap-4 lg:py-10 xl:gap-0 xl:pb-40">
+                            
+                                <div class="whats_on_img" id="English_IMG">
+                                    <div class="wo-title-wrapper">
+                                        <p class="wo-title">English</p>
+                                    </div>
+                                    <p class="view-more"><a href="whats-on/english.html">View More</a><i class="arrow"></i></p>
+                                </div>
+    
+                                <div class="whats_on_img" id="Psychology_IMG">
+                                    <div class="wo-title-wrapper">
+                                        <p class="wo-title">Psychology</p>
+                                    </div>
+                                    <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
+                                </div>
+    
+                                <div class="whats_on_img" id="Biology_IMG">
+                                    <div class="wo-title-wrapper">
+                                        <p class="wo-title">Biology</p>
+                                    </div>
+                                    <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
+                                </div>
+    
+                                <div class="whats_on_img" id="Further_Maths_IMG">
+                                    <div class="wo-title-wrapper">
+                                        <p class="wo-title">Further Maths</p>
+                                    </div>
+                                    <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
+                                </div>
+                            
+                                <div class="whats_on_img" id="Maths_Methods_IMG">
+                                    <div class="wo-title-wrapper">
+                                        <p class="wo-title">Maths Methods</p>
+                                    </div>
+                                    <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
+                                </div>
+    
+                                <div class="whats_on_img" id="Business_Man_IMG">
+                                    <div class="wo-title-wrapper">
+                                        <p class="wo-title">Business Man.</p>
+                                    </div>
+                                    <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
+                                </div>
+    
+                                <div class="whats_on_img" id="HHD_IMG">
+                                    <div class="wo-title-wrapper">
+                                        <p class="wo-title">HHD</p>
+                                    </div>
+                                    <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
+                                </div>
+    
+                                <div class="whats_on_img" id="Chemistry_IMG">
+                                    <div class="wo-title-wrapper">
+                                        <p class="wo-title">Chemistry</p>
+                                    </div>
+                                    <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
+                                </div>
+    
+                                <div class="whats_on_img" id="Legal_Studies_IMG">
+                                    <div class="wo-title-wrapper">
+                                        <p class="wo-title">Legal Studies</p>
+                                    </div>
+                                    <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
+                                </div>
+                            
+                                <div class="whats_on_img" id="PE_IMG">
+                                    <div class="wo-title-wrapper">
+                                        <p class="wo-title">PE</p>
+                                    </div>
+                                    <p class="view-more"><a href="#">View More</a><i class="arrow"></i></p>
+                                </div>
+                        </div>
+                    </div>
+    
                 </div>
-
             </div>
+            
                 
         </main> <!-- End Main -->
 

@@ -21104,100 +21104,6 @@ video {
   }
 }
 
-/* End Instruction Section */
-
-/* Quote Section */
-
-@media only screen and (min-width: 1100px) {
-  .quote_01 {
-    top: 175;
-    right: 100;
-  }
-
-  .quote_02 {
-    top: 230;
-    right: 650;
-  }
-
-  .quote_03 {
-    top: 400;
-    right: 200;
-    width:  45%;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .quote_01 {
-    top: 175;
-    right: 150;
-  }
-
-  .quote_02 {
-    top: 200;
-    right: 750;
-  }
-
-  .quote_03 {
-    top: 350;
-    right: 350;
-    width:  45%;
-  }
-}
-
-@media only screen and (min-width: 1900px) {
-  .image_instruction {
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 20rem;
-    width: 20rem;
-  }
-
-  .quote_01 {
-    top: 175;
-    right: 250;
-  }
-
-  .quote_02 {
-    top: 200;
-    right: 950;
-  }
-
-  .quote_03 {
-    top: 350;
-    right: 500;
-    width:  45%;
-  }
-}
-
-@media only screen and (min-width: 2200px) {
-  .image_instruction {
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 20rem;
-    width: 20rem;
-  }
-
-  .quote_01 {
-    top: 175;
-    right: 250;
-  }
-
-  .quote_02 {
-    top: 200;
-    right: 1350;
-  }
-
-  .quote_03 {
-    top: 375;
-    right: 700;
-    width:  45%;
-  }
-}
-
-/* End Quote Section */
-
-/* End Index Styles Section */
-
 /* Sign Up Section */
 
 .square {
@@ -21214,6 +21120,14 @@ video {
   background-repeat: no-repeat;
   height: 30rem;
   width: 47rem;
+}
+
+@media only screen and (min-width: 1100px) {
+  .pencils {
+    background-image: url(resources/pencils.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 /* End Sign Up Section */

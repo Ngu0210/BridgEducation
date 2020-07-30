@@ -21345,6 +21345,19 @@ video {
   }
 }
 
+/* End Subject */
+
+/* Contact Section */
+
+.coffee {
+  background-image: url(resources/coffee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 20rem;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -143726,4 +143739,3 @@ video {
     transition-delay: 1000ms;
   }
 }
-

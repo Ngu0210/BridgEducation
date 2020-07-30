@@ -20586,6 +20586,26 @@ video {
   width: 15rem;
 }
 
+@media only screen and (min-width: 1100px) {
+  .grad {
+    background-position: 0rem;
+  }
+
+  .fairy {
+    background-position: 0rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .grad {
+    height: 40rem;
+  }
+
+  .fairy {
+    height: 40rem;
+  }
+}
+
 #image_01 {
   background-image: url(resources/Square.png);
 }

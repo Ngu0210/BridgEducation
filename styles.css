@@ -21321,10 +21321,10 @@ video {
 
 /* End Tailwind Imports */
 
-/* Mission Story Section */
+/* Index Section */
 
 .grad {
-  background-image: url("resources/grad.jpg");
+  background-image: url(resources/index/grad.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -21333,34 +21333,12 @@ video {
 }
 
 .fairy {
-  background-image: url("resources/light-book.jpg");
+  background-image: url(resources/index/light-book.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 30rem;
   width: 100%;
-}
-
-/* End Mission Story */
-
-/* Instruction Section */
-
-.instruction_grid {
-  justify-items: center;
-}
-
-.quote_img {
-  background-image: url(resources/Quotation.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 2rem;
-}
-
-.image_instruction {
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 15rem;
-  width: 15rem;
 }
 
 @media only screen and (min-width: 1100px) {
@@ -21393,25 +21371,9 @@ video {
   }
 }
 
-#image_01 {
-  background-image: url(resources/Square.png);
-}
-
-#image_02 {
-  background-image: url(resources/Square.png);
-}
-
-#image_03 {
-  background-image: url(resources/Square.png);
-}
-
-#image_04 {
-  background-image: url(resources/Square.png);
-}
-
 @media only screen and (min-width: 1100px) {
   .home_background {
-    background-image: url(resources/Bridge.jpg);
+    background-image: url(resources/index/Bridge.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 25%;
@@ -21421,17 +21383,19 @@ video {
 
 @media only screen and (min-width: 1400px) {
   .home_background {
-    background-image: url(resources/Bridge.jpg);
+    background-image: url(resources/index/Bridge.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 25%;
   }
 }
 
+/* End Index Section */
+
 /* Sign Up Section */
 
 .square {
-  background-image: url(resources/Square.png);
+  background-image: url(resources/sign-up/Square.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 20rem;
@@ -21439,7 +21403,7 @@ video {
 }
 
 .square_long {
-  background-image: url(resources/Square_02.png);
+  background-image: url(resources/sign-up/Square_02.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 30rem;
@@ -21448,7 +21412,7 @@ video {
 
 @media only screen and (min-width: 1100px) {
   .pencils {
-    background-image: url(resources/pencils.jpg);
+    background-image: url(resources/sign-up/pencils.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -21516,44 +21480,44 @@ video {
 }
 
 #English_IMG {
-  background-image: url(resources/whats-on/English.png);
+  background-image: url(resources/whats-on/English.jpg);
 }
 
 #Maths_Methods_IMG {
-  background-image: url(resources/whats-on/Math_Methods.png);
+  background-image: url(resources/whats-on/Math_Methods.jpg);
 }
 
 #PE_IMG {
-  background-image: url(resources/whats-on/PE.png);
+  background-image: url(resources/whats-on/PE.jpg);
 }
 
 #Psychology_IMG {
-  background-image: url(resources/whats-on/Psychology.png);
+  background-image: url(resources/whats-on/Psychology.jpg);
 }
 
 #Further_Maths_IMG {
-  background-image: url(resources/whats-on/Further_Maths.png);
+  background-image: url(resources/whats-on/Further_Maths.jpg);
 }
 
 #Chemistry_IMG {
-  background-image: url(resources/whats-on/Chemistry.png);
+  background-image: url(resources/whats-on/Chemistry.jpg);
 }
 
 #Business_Man_IMG {
-  background-image: url(resources/whats-on/Business_Man.png);
+  background-image: url(resources/whats-on/Business_Man.jpg);
 }
 
 #HHD_IMG {
-  background-image: url(resources/whats-on/HHD.png);
+  background-image: url(resources/whats-on/HHD.jpg);
   background-position: 0rem -2rem;
 }
 
 #Biology_IMG {
-  background-image: url(resources/whats-on/Biology.png);
+  background-image: url(resources/whats-on/Biology.jpg);
 }
 
 #Legal_Studies_IMG {
-  background-image: url(resources/whats-on/Legal_Studies.png);
+  background-image: url(resources/whats-on/Legal_Studies.jpg);
 }
 
 @media only screen and (min-width: 1100px) {
@@ -21674,7 +21638,7 @@ video {
 /* Contact Section */
 
 .coffee {
-  background-image: url(resources/coffee.jpg);
+  background-image: url(resources/contact/coffee.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

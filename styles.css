@@ -21435,6 +21435,9 @@ video {
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  transition-duration: 5s;
+  transition: all 0.3s ease;
+  overflow: hidden;
 }
 
 .wo-title-wrapper {
@@ -21481,6 +21484,11 @@ video {
 
 #English_IMG {
   background-image: url(resources/whats-on/English.jpg);
+}
+
+.whats_on_img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 #Maths_Methods_IMG {
